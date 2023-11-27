@@ -6,7 +6,7 @@ After cloning run
 
 `docker-compose up -d --build`
 
-`docker-compose exec php /bin/bash`
+`docker-compose exec app /bin/bash`
 
 `symfony check:requirements`
 
