@@ -71,4 +71,4 @@ web-app-name
 ````
 
 # Licence 
-This project is licensed under the MIT Licence - see the [LICENCE] (https://github.com/chitosystems/docker-symfony-nginx-mysql8.0-php8.2/blob/main/Licence). file for details.
+This project is licensed under the MIT Licence - see the [LICENCE] (https://github.com/chitosystems/docker-symfony-nginx-mysql8.0-php8.2/blob/main/LICENCE). file for details.
