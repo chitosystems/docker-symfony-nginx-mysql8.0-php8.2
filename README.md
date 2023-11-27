@@ -27,13 +27,13 @@ This repository provides a Docker environment for running a PHP 8.2 application 
     docker-compose up -d --build
     ```
 
-4. Access the application container's bash shell:
+4. From the terminal, navigate to the `app` directory:
 
     ```bash
-    docker-compose exec app /bin/bash
+    cd app
     ```
 
-5. Inside the container, check Symfony requirements:
+5. Check Symfony requirements:
 
     ```bash
     symfony check:requirements
@@ -45,10 +45,9 @@ This repository provides a Docker environment for running a PHP 8.2 application 
     symfony new .
     ```
 
-7. Navigate to the `app` directory and add your web application's Git repository:
+7. Add your web application's Git repository:
 
     ```bash
-    cd app
     git remote add origin <your-git-repo-url>
     ```
 
