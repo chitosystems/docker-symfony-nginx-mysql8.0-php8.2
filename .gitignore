@@ -9,4 +9,5 @@
 !.gitignore
 !/compose.yml
 !/example.env
+!/LICENCE
 !README.md
