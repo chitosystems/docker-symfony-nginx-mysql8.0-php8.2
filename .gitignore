@@ -1,0 +1,12 @@
+# Git ignore everything except for a few directories we specify.
+# Blacklist files/folders in same directory as the .gitignore file
+# Ignore everything
+
+/*
+
+# Whitelist some files
+!/.docker/
+!.gitignore
+!/compose.yml
+!/example.env
+!README.md
