@@ -3,6 +3,7 @@
 create a .env file from the existing example.env file
 
 After cloning run 
+
 `docker-compose up -d --build`
 
 `docker-compose exec php /bin/bash`
@@ -10,5 +11,9 @@ After cloning run
 `symfony check:requirements`
 
 `symfony new .`
+
+`cd app`
+
+and add your web-app git repo
 
 You will up and running on http://localhost:8080/
